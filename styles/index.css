@@ -1,0 +1,7 @@
+@import "./variables.css";
+@import "./imported-style.css";
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}
