@@ -3,7 +3,7 @@
 # vanilla-webpack-boilerplate
 For writing passionate Javascript.
 
-Boilerplate that builds and minimizes a vanilla CSS / JS projects. Great for plugins and libraries! 
+Boilerplate for vanilla CSS / JS projects. Great for plugins and libraries! 
 
 ## Overview
 
