@@ -1,7 +1,9 @@
+@import "./reset.css";
 @import "./variables.css";
-@import "./imported-style.css";
 
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
+  font-family: monospace;
+  text-align: center;
 }
