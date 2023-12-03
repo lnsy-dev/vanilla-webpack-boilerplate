@@ -34,5 +34,5 @@ npm build
 
 In Github go to settings/pages in the project and select deploy from branch. 
 
-Link to /dist/bundle.js on the page name.
+Link to /dist/bundle.js on the published pages. This will load the CSS and JS. 
 
