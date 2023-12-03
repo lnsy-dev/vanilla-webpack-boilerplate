@@ -10,7 +10,7 @@ class ElementName extends HTMLElement {
   connectedCallback(){
     this.innerHTML = `
       <h3>Custom HTML Element</h3>
-      <p><a href="https://lnsy.dev/blog/custom-html-components.html" target="_blank">More Information</a></p> 
+      <p><a href="https://lnsy.dev/blog/custom-html-components.html" target="_blank">About Custom HTML Elements</a></p> 
     `
   }
 
