@@ -7,7 +7,7 @@ Boilerplate that builds and minimizes a vanilla CSS / JS projects. Great for plu
 
 ## Overview
 
-Modern Web development has gotten far too complex. Frameworks and ornate build systems have obscured the fact that the fundamentals of JS and CSS have gotten not just slightly better, but really really good. 
+Modern Web development has gotten far too complex. Frameworks and ornate build systems have obscured the fact that the fundamentals of JS and CSS have gotten not just slightly better but really, really good. 
 
 This project is for people who want to write passionate code and ship it quickly. 
 
