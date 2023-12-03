@@ -48,5 +48,7 @@ Link to /dist/bundle.js on the published pages. This will load the CSS and JS.
 
 ## About
 
-By LNSY 
+https://lnsy.dev 
+
+Hire Me!  
 
