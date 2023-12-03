@@ -1,3 +1,11 @@
+/*
+
+  Custom HTML Elements
+
+  For More information go to: https://lnsy.dev/blog/custom-html-components.html
+
+ */
+
 class ElementName extends HTMLElement {
   connectedCallback(){
     this.innerHTML = `
