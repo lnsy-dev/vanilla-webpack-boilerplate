@@ -4,6 +4,7 @@ module.exports = {
   entry: ['./src/index.js','./styles/index.css'],
   output: {
     path: path.resolve(__dirname, 'dist'),
+    // Bundle name
     filename: 'bundle.js'
   },
   module: {
