@@ -1,3 +1,5 @@
+![Splash Image](splash.jpg)
+
 # vanilla-webpack-boilerplate
 For writing passionate Javascript.
 
