@@ -33,8 +33,9 @@ This will
 
 ## Change output name
 
-To change the name of the built file create a .env file and add the variable 
+To change the name of the built file create an **.env** file and add the variable 
 OUTPUT_FILENAME to it, like so: 
+
 ```
 OUTPUT_FILENAME=new-filename.min.js
 ```
