@@ -26,7 +26,10 @@ This will start a live-server for editing.
 npm build
 ```
 
-This will generate a file called bundle.js in the /dist folder that includes the css and js. 
+This will
+ - generate a file called bundle.min.js in the /dist folder that includes the css and js. 
+ - mux and copy over the index.html file to /dist
+ - copy /assets folder to /dist
 
 ## Custom HTML Elements
 
