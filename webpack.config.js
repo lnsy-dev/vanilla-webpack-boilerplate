@@ -13,6 +13,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: file_name
   },
+  experiments: {
+    outputModule: true,
+  },
   module: {
     rules: [
       {
