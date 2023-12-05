@@ -50,7 +50,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'assets', to: 'assets' },
+        { from: 'assets', to: 'assets' }
         // Add more patterns if needed for other folders or files
       ],
     })
