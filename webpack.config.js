@@ -1,6 +1,8 @@
 const path = require('path');
 const fs = require('fs');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 const file_name = 'bundle.min.js';
 
 module.exports = {
@@ -46,7 +48,12 @@ module.exports = {
       inject: 'body', // Inject script tag into the body
       scriptLoading: 'blocking', // Ensure script tag is loaded in the correct order
     }),
-
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'assets', to: 'assets' },
+        // Add more patterns if needed for other folders or files
+      ],
+    })
   ]
 };
 

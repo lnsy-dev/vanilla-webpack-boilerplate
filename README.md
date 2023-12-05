@@ -1,4 +1,4 @@
-![Splash Image](splash.jpg?)
+![Splash Image](./assets/splash.jpg?)
 
 # vanilla-webpack-boilerplate
 For writing passionate Javascript.
