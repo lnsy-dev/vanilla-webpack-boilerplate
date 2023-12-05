@@ -31,6 +31,14 @@ This will
  - mux and copy over the index.html file to /dist
  - copy /assets folder to /dist
 
+## Change output name
+
+To change the name of the built file create a .env file and add the variable 
+OUTPUT_FILENAME to it, like so: 
+```
+OUTPUT_FILENAME=new-filename.min.js
+```
+
 ## Custom HTML Elements
 
 This project has an example of a custom HTML Element. For more information about custom HTML elements go to https://lnsy.dev/blog/custom-html-components.html

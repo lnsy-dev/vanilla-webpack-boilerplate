@@ -1,15 +1,16 @@
 const path = require('path');
 const fs = require('fs');
+const dotenv = require('dotenv');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const file_name = 'bundle.min.js';
+dotenv.config();
+const file_name = process.env.OUTPUT_FILENAME || 'bundle.min.js';
 
 module.exports = {
   entry: ['./src/index.js','./styles/index.css'],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    // Bundle name
     filename: file_name
   },
   module: {
