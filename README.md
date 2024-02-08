@@ -24,7 +24,7 @@ This will start a live-server for editing.
 ## To build
 
 ```sh
-npm build
+npm run build
 ```
 
 This will
@@ -54,7 +54,7 @@ Clone the project, make your changes.
 Run
 
 ```sh
-npm build
+npm run build
 ```
 
 In Github go to settings/pages in the project and select deploy from branch. 
