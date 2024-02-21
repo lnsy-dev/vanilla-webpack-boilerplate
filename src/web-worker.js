@@ -1,3 +1,11 @@
+/*
+  Web Worker
+
+  For more information go to:
+  https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+
+ */
+
 // Use web workers to handle heavy processese
 self.addEventListener('message', function(e) {
   // Receive message from the main thread
