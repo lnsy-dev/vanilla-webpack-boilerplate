@@ -11,6 +11,18 @@ Modern Web development has gotten far too complex. Frameworks and ornate build s
 
 This project is for people who want to write passionate code and ship it quickly. 
 
+## Project Structure
+
+- styles
+  - index.css -- this is the entry way into your app
+  - reset.css -- a standard css reset
+  - variables.css -- a place to keep your css variables
+
+- src
+  - index.js -- the entry point for your html page
+  - custom-html-element.js -- an example of a custom HTML element
+  - web-worker.js -- an example of a webworker
+
 ## Instructions
 
 ```sh
