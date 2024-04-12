@@ -4,6 +4,5 @@
 body {
   background-color: var(--bg-color);
   color: var(--fg-color);
-  font-family: monospace;
-  text-align: center;
+  font-family: var(--body-font);
 }
