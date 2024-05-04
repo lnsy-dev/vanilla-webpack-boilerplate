@@ -1,5 +1,7 @@
 @import "./reset.css";
 @import "./variables.css";
+@import "./holy-grail-layout.css";
+@import "./media-queries.css";
 
 body {
   background-color: var(--bg-color);

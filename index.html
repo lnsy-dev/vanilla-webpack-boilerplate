@@ -15,24 +15,12 @@
   <link rel="stylesheet" type="text/css" href="./styles/index.css">
   <script src="./src/index.js" type="module"></script>
   <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
     header, footer {
-      flex-shrink: 0;
-      text-align: center;
+      text-align:center;
     }
-    main {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Center children of main */
-    }
+
     img {
-      max-width: 40em; /* Responsive image scaling */
-      height: auto;
+      max-width: 40em;
       margin: auto;
     }
   </style>
@@ -46,9 +34,22 @@
   </header>
 
   <main>
-    <custom-html-element></custom-html-element>
-    <p>For generating JS and CSS libraries in plain CSS, JS, and HTML.</p>
-    <p>For more information, see the README</p>
+    <nav>
+      <h1>Navigation</h1>
+      <ul>
+        <li>A Holy Grail Layout</li>
+        <li>Here</li>
+      </ul>
+    </nav>
+    <article>
+      <custom-html-element></custom-html-element>
+      <p>For generating JS and CSS libraries in plain CSS, JS, and HTML.</p>
+      <p>For more information, see the README</p>
+    </article>
+    <aside>
+      <h1>Aside</h1>
+      <p>The aside is a great place for tag clouds, affiliate links, etc.</p>
+    </aside>
   </main>
 
   <footer>

@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 1em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+nav, aside {
+  width: 14em;
+}
+
+article {
+  flex: 1;
+  padding: 0 1em;
+}
+
+
+@media (max-width: 20em) {
+  main {
+    flex-direction: column;
+  }
+
+  article {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  nav, aside {
+    margin: auto;
+    width: 100%;
+  }
+}
