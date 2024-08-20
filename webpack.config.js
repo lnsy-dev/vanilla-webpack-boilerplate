@@ -13,6 +13,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: file_name
   },
+  mode: 'production',
   experiments: {
     outputModule: true,
   },
@@ -39,17 +40,18 @@ module.exports = {
           // Use synchronous readFileSync instead of asynchronous readFile
           const data = fs.readFileSync(index_path, 'utf8');
           // Replace the target string
-          return data.replace(
-            /<link rel="stylesheet" href="\.\/styles\/index\.css">[\s\S]*?<script src="\.\/src\/index\.js" type="module"><\/script>/,
-            `<script src="./${file_name}" type="module"></script>`
-          );
+          // 
+        
+         const pattern = /<link rel="stylesheet" type="text\/css" href="\..*?">|<script src="\..*?" type="module"><\/script>/g;
+
+          return data.replace(pattern , '');
         } catch (error) {
           console.error('Error reading file:', error);
           throw error;
         }
       },
       filename: 'index.html', // Output file name
-      inject: 'body', // Inject script tag into the body
+      inject: 'head', // Inject script tag into the head
       scriptLoading: 'blocking', // Ensure script tag is loaded in the correct order
     }),
     // check if /assets folder exists
