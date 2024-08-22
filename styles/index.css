@@ -8,3 +8,15 @@ body {
   color: var(--fg-color);
   font-family: var(--body-font);
 }
+
+error {
+  color: var(--error-color);
+}
+
+confirmation {
+  color: var(--confirmation-color);
+}
+
+warning {
+  color: var(--warning-color);
+}

@@ -3,5 +3,9 @@
 :root {
   --bg-color: white;
   --fg-color: black;
+  --highlight-color: orange;
+  --confirmation-color: green;
+  --warning-color: orange;
+  --error-color: red;
   --body-font: "Atkinson Hyperlegible", sans-serif;
 }

@@ -1,6 +1,6 @@
 body, html {
   margin: 0;
-  padding: 1em;
+  padding: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -13,11 +13,29 @@ main {
 
 nav, aside {
   width: 14em;
+  padding: 1em;
 }
 
 article {
   flex: 1;
   padding: 0 1em;
+  max-width: 40em;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+
+footer {
+  text-align: center;
 }
 
 
