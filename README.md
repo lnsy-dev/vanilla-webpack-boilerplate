@@ -55,7 +55,7 @@ OUTPUT_FILENAME=new-filename.min.js
 
 ## Custom HTML Elements
 
-This project has an example of a custom HTML Element. For more information about custom HTML elements go to https://lnsy.dev/blog/custom-html-components.html
+This project has an example of a custom HTML Element. For more information about custom HTML elements go to https://lindseymysse.com/blog/custom-html-components.html
 
 ## A simple deployment on GitHub
 
